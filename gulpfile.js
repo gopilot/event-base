@@ -5,6 +5,15 @@ var jade = require('gulp-jade');
 var jsyaml = require('js-yaml');
 var fs = require('fs');
 
+var deploy = require("gulp-gh-pages");
+
+var gitRemoteUrl = "git@github.com:gopilot/event-base.git"
+
+gulp.task('deploy', function () {
+    gulp.src("./out/**/*")
+        .pipe(deploy(gitRemoteUrl));
+});
+
 // compile css
 gulp.task('stylus', function () {
     return gulp.src('./css/master.styl')
