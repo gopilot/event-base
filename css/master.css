@@ -310,7 +310,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("/img/bruno-blueprint-101.jpg") center center no-repeat;
+  background: url("../img/bruno-blueprint-101.jpg") center center no-repeat;
   -webkit-filter: contrast(140%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -407,7 +407,7 @@ h6 {
   margin: 0;
 }
 .pilot-logo {
-  background: url("/img/arc_white.svg") center center no-repeat;
+  background: url("../img/arc_white.svg") center center no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
